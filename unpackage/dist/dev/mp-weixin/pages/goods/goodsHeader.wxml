@@ -1,0 +1,1 @@
+<view class="header"><view class="before"><view class="back"><block wx:if="{{showback}}"><view data-event-opts="{{[['tap',[['back',['$event']]]]]}}" class="icon iconfont" bindtap="__e"></view></block></view><view class="middle"></view><view class="icon-btn"><view class="icon iconfont"></view></view></view></view>

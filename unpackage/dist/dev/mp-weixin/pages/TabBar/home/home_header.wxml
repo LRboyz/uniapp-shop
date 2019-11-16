@@ -1,0 +1,1 @@
+<view><view class="header"><view class="addr"><view class="icon iconfont"></view>{{''+city+''}}</view><view class="input-box"><input type="text" placeholder="搜索商品" placeholder-style="color:#c0c0c0"/><view class="icon iconfont"></view></view><view class="icon-btn"><view class="icon iconfont"></view></view></view><view class="place"></view></view>

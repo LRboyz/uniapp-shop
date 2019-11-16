@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "分类",
+  "usingComponents": {
+    "home-header": "/pages/TabBar/home/home_header"
+  }
+}

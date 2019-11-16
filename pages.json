@@ -1,0 +1,110 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/TabBar/home/home",
+			"style": {
+				"navigationBarTitleText": "首页",
+				"app-plus": { // 取消默认的状态栏
+					"titleNView": false,
+					"bounce": "none"
+				}
+			}
+		},
+		{
+			"path": "pages/TabBar/category/category",
+			"style": {
+				"navigationBarTitleText": "分类",
+				"app-plus": { // 取消默认的状态栏
+					"titleNView": false,
+					"bounce": "none"
+				}
+			}
+		},
+		{
+			"path": "pages/TabBar/cart/cart",
+			"style": {
+				"navigationBarTitleText": "购物车"
+			}
+		},
+		{
+			"path": "pages/TabBar/user/user",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": true,
+				"onReachBottomDistance": 0
+			}
+		},
+		
+		{
+			"path": "pages/goods/goodsList",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": true,
+				"onReach": 0
+			}
+		},
+		{
+			"path": "pages/goods/goods",
+			"style": {
+				"navigationBarTitleText": "商品",
+				"h5": {
+					"titleNView": false
+				},
+				"app-plus": {
+					"titleNView": false,
+					"bounce": "none"
+				}
+			}
+		},
+		{
+			"path": "pages/goods/ratings",
+			"style": {
+				"navigationBarTitleText": "商品评论"
+			}
+		},
+		{
+			"path": "pages/order/confirm",
+			"style": {
+				"navigationBarTitleText": "确定订单"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#FFFFFF",
+		"backgroundColor": "#FFFFFF"
+	},
+	"tabBar":{
+		"color":"#333333",
+		"selectedColor":"#f06c7a",
+		"borderStyle":"black",
+		"backgroundColor":"#F8F8F8",
+		"list":[
+			{
+				"pagePath":"pages/TabBar/home/home",
+				"iconPath":"static/tabbar_icon/home.png",
+				"selectedIconPath":"static/tabbar_icon/home_sel.png",
+				"text":"首页"
+			},
+			{
+				"pagePath":"pages/TabBar/category/category",
+				"iconPath":"static/tabbar_icon/category.png",
+				"selectedIconPath":"static/tabbar_icon/category_sel.png",
+				"text":"分类"
+			},
+			{
+				"pagePath":"pages/TabBar/cart/cart",
+				"iconPath":"static/tabbar_icon/cart.png",
+				"selectedIconPath":"static/tabbar_icon/cart_sel.png",
+				"text":"购物车"
+			},
+			{
+				"pagePath":"pages/TabBar/user/user",
+				"iconPath":"static/tabbar_icon/mine.png",
+				"selectedIconPath":"static/tabbar_icon/mine_sel.png",
+				"text":"个人中心"
+			}
+		]
+	}
+}
